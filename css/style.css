@@ -90,6 +90,7 @@ margin: 25px;
 	flex-direction: column;
 	text-align: center;
 	font-weight: 300;
+	font-size:1.2em ;
 	padding: 30px;
 }
 
@@ -191,10 +192,11 @@ header .logo {
 			
 	}
 }
-/*  ocntacto */
+/*  cocntacto */
 
 .contacto {
 	overflow: hidden;
+	
 }
 
 /* comienza carrusel */
