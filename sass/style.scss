@@ -1,11 +1,6 @@
-@import "header";
+//imports
+@import "_vars";
+@import "_fonts";
+@import "_navBar";
+@import "_commons";
 
-
-* {
-    padding: 0%;
-    margin: 0%;
-}
-body {
-    background: linear-gradient(#e6ebe9, #969797);
-    font-family: 'Roboto', sans-serif;
-}
