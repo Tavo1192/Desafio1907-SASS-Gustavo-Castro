@@ -16,6 +16,7 @@
 
 .campo {
   padding: 30px 30px;
+  overflow: hidden;
 }
 
 * {
@@ -63,4 +64,11 @@ p {
   text-align: center;
   padding: 40px;
   font-size: 0.8em;
+}
+@media screen and (max-width: 800px) {
+  .footer {
+    flex-direction: column;
+    text-align: center;
+    font-size: 0.8em;
+  }
 }/*# sourceMappingURL=style.css.map */
