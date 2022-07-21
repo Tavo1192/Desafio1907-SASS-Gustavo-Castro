@@ -4,13 +4,16 @@
 }
 
 h1, h2, h3, h4 {
-    font-family: $firstFont;
+    
     color: $letterColor;
+    text-align: center;
 
 }
 h1 {
     font-size: $sub4Xl;
     font-family: $secondFont;
+    margin: 20px 30px;
+    
 
 }
     
@@ -22,4 +25,16 @@ h3, p {
     font-size: $sub2Md;
     font-family: $secondFont ;
     font-weight: $bold;
+    text-align: center;
+}
+
+h5 {
+    font-family: $secondFont ;
+    font-weight: $bold;
+    padding: 50px;
+
+}
+p {
+    margin-left: 50px;
+    margin-right: 50px;
 }

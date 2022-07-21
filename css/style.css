@@ -7,22 +7,26 @@
   justify-content: space-between;
   align-items: center;
   text-decoration: none;
-  background-color: #E7ECEA;
+  background-color: #c0ccc7;
   font-size: 1.2em; }
   .contenedor .logo {
     width: 250px; }
+
+.campo {
+  padding: 30px 30px; }
 
 * {
   margin: 0%;
   padding: 0%; }
 
 h1, h2, h3, h4 {
-  font-family: "Roboto", sans-serif;
-  color: #040404; }
+  color: #040404;
+  text-align: center; }
 
 h1 {
   font-size: 2.2em;
-  font-family: "Montserrat", sans-serif; }
+  font-family: "Montserrat", sans-serif;
+  margin: 20px 30px; }
 
 h2 {
   font-size: 1.8em;
@@ -31,4 +35,21 @@ h2 {
 h3, p {
   font-size: 1.2em;
   font-family: "Montserrat", sans-serif;
-  font-weight: 400; }
+  font-weight: 400;
+  text-align: center; }
+
+h5 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  padding: 50px; }
+
+p {
+  margin-left: 50px;
+  margin-right: 50px; }
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 40px;
+  font-size: 0.8em; }
