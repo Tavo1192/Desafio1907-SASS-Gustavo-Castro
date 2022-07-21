@@ -1,5 +1,6 @@
+//nesting
+
 .contenedor {
-    //nesting
     width: 100%;
     margin: auto;
     padding: 2px 40px;
@@ -9,12 +10,14 @@
     text-decoration: none;
     background-color: $mainColor;
     font-size: $sub2Md;
-   
-    
     .logo   {
         width: 250px;
+    
+    }
+    }
+    
+    .main {
+        width: 80%;
        
-
-        }
     }
 
