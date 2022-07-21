@@ -1,19 +1,20 @@
 .contenedor {
+    //nesting
     width: 100%;
     margin: auto;
+    padding: 2px 40px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     text-decoration: none;
-    
     background-color: $mainColor;
-
-    
+    font-size: $sub2Md;
+   
     
     .logo   {
-        width: 25em;
-        
+        width: 250px;
+       
+
+        }
     }
 
-
-}

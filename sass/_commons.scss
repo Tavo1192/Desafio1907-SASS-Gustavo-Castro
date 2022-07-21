@@ -1,0 +1,25 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+h1, h2, h3, h4 {
+    font-family: $firstFont;
+    color: $letterColor;
+
+}
+h1 {
+    font-size: $sub4Xl;
+    font-family: $secondFont;
+
+}
+    
+h2 {
+    font-size: $sub3Lg;
+    font-family: $secondFont;
+}
+h3, p {
+    font-size: $sub2Md;
+    font-family: $secondFont ;
+    font-weight: $bold;
+}
