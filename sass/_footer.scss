@@ -5,10 +5,12 @@
     padding: 40px;
     font-size: $sub1Sm;
     
+    
         @media screen and (max-width: 800px) {
             
             flex-direction: column;
             text-align: center;
             font-size: $sub1Sm;
+            
             }
     }

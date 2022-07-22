@@ -19,6 +19,17 @@
   overflow: hidden;
 }
 
+.carrusel {
+  margin-top: 2rem;
+}
+.carrusel .carousel-inner .carousel-item img {
+  height: 15vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+
 * {
   margin: 0%;
   padding: 0%;

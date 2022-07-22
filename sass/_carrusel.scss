@@ -1,0 +1,15 @@
+.carrusel {
+    margin-top: 2rem;
+    .carousel-inner {
+        .carousel-item {
+            img {
+                height: 15vh;
+                object-fit: cover;
+                object-position: center;
+            }
+
+        }
+
+    }
+}
+
