@@ -1,4 +1,44 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@300;400&display=swap");
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+h1, h2, h3, h4 {
+  color: #040404;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.2em;
+  font-family: "Montserrat", sans-serif;
+  margin: 20px 30px;
+}
+
+h2 {
+  font-size: 1.8em;
+  font-family: "Montserrat", sans-serif;
+  padding: 10px;
+}
+
+h3, p {
+  font-size: 1.2em;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  text-align: center;
+}
+
+h5 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  padding: 50px;
+}
+
+p {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
 .contenedor {
   width: 100%;
   margin: auto;
@@ -20,53 +60,92 @@
 }
 
 .carrusel {
-  margin-top: 2rem;
+  margin-top: 10rem;
 }
 .carrusel .carousel-inner .carousel-item img {
-  height: 15vh;
+  height: 55vh;
   -o-object-fit: cover;
      object-fit: cover;
   -o-object-position: center;
      object-position: center;
 }
 
-* {
-  margin: 0%;
-  padding: 0%;
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+.card-container .card {
+  position: relative;
+  width: 300px;
+  height: 350px;
+  margin: 15px;
+}
+.card-container .card .face {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: 0.5s;
+}
+.card-container .card .face .front {
+  transform: perspective(600px) rotateY(0deg);
+  box-shadow: 0 5px 10px #151515;
+}
+.card-container .card .face .front img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.card-container .card .face .front img h3 {
+  width: 100%;
+  height: 45px;
+  line-height: 45px;
+  color: #fff;
+  background: rgba 0, 0, 0, 0.4;
 }
 
-h1, h2, h3, h4 {
-  color: #040404;
+.card .back {
+  transform: perspective(600px) rotateY(180deg);
+  background: rgb(3, 35, 54);
+  padding: 15px;
+  color: #f3f3f3;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   text-align: center;
+  box-shadow: 0, 5px, 10px #151515;
+}
+.card .back .link {
+  border-top: solid 1px #f3f3f3;
+  height: 50px;
+  line-height: 50px;
+}
+.card .back .link a {
+  color: #f3f3f3;
+}
+.card .back .link a h3 {
+  font-size: 30px;
+  margin-top: 20px;
+  letter-spacing: 2px;
+}
+.card .back .link a h3 p {
+  letter-spacing: 1px;
 }
 
-h1 {
-  font-size: 2.2em;
-  font-family: "Montserrat", sans-serif;
-  margin: 20px 30px;
+.card:hover .front {
+  transform: perspective(600px) rotateY(180deg);
 }
 
-h2 {
-  font-size: 1.8em;
-  font-family: "Montserrat", sans-serif;
-}
-
-h3, p {
-  font-size: 1.2em;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 400;
-  text-align: center;
-}
-
-h5 {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 400;
-  padding: 50px;
-}
-
-p {
-  margin-left: 50px;
-  margin-right: 50px;
+.card:hover .back {
+  transform: perspective(600px) rotateY(360deg);
 }
 
 .footer {
