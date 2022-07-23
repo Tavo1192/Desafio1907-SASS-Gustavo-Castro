@@ -1,3 +1,74 @@
+//form de contacto
+
+
+.contenedor-form form .form-header .form-title {
+    font-weight: normal;
+    font-family: $secondFont;
+    color: $letterColor;
+    text-align: center;
+    padding: 14px 0;
+        span {
+            color: $letterColor;
+        }
+
+}
+.contenedor-form form {
+    background: $secondColor;
+    width: 90%;
+    max-width: 450px;
+    margin: auto;
+    padding: 5px 35px;
+    margin-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 3px;
+        .form-label {
+    display: block;
+    color: $letterColor;
+    font-size: 16px;
+    font-family: $secondFont;
+    position: relative;
+    }
+}
+.contenedor-form form .form-input, .form-textarea {
+    background: rgba(0,0,0,.6);
+    border: none;
+    outline: none;
+    border-bottom:  2px solid #abedf1;
+    width: 100%;
+    padding: 12px;
+    margin-bottom:  20px;
+    border-radius: 2px;
+    font-size: 14px;
+    color: #26d190;
+    font-family: $secondFont;
+
+}
+.contenedor-form form .form-textarea {
+    resize: vertical;
+    max-height: 150px;
+    min-height: 50px;
+}
+.contenedor-form form .btn-submit {
+    width: 100%;
+    font-family: $secondFont;
+    outline: none;
+    background: #abedf1;
+    font-size: 16px;
+    border: none;
+    color: $letterColor;
+    padding: 15px 0;
+    cursor: pointer;
+    transition: all 2s ease;
+}
+.contenedor-form form .btn-submit:hover {
+    background: #26d190;
+}
+
+//RS
+.map {
+    margin-top: 50px;
+    padding: 25px 0;
+}
 .footer {
     display: flex;
     flex-direction: column;

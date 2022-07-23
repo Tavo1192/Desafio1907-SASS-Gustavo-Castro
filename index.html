@@ -43,83 +43,96 @@
 				</div>
 			</nav>
 		</div>
-					
-					
-				
-				
-		<section class="sub-titulo">
-		<h1 class="sub-titulo1">Jardines de Velez te espera</h1>
-		<h2 class="sub-titulo2">Un lugar especial</h2>
-			<p>A sólo 15 minutos del centro de la ciudad de Cordoba Capital, y a 4 kms del Aeropuerto Internacional se encuentra este paraíso que invita al relax y al placer de los sentidos.
-			</p>
 		
+		<h1>Jardines de Velez te espera</h1>
+		<h2>Un lugar especial</h2>
+			<p>A sólo 15 minutos del centro de la ciudad de Cordoba Capital, y a 4 kms del Aeropuerto Internacional se encuentra este paraíso que invita al relax y al placer de los sentidos.</p>
 		
-		</section>
-
 	</header>
-
-	<main class="main">
+	<!-- termina header -->
 	
-		<div class="campo">
+	<main class="main">
+	<div class="campo">
 			<img src="img/campo.jpg" alt="campos verdes con cielo azul de fondo">
 		</div>
-	
-
 	</main>
-
-
-	<main class=" contacto">
+	<div class="container">
+  <h2>Jardines de Velez tiene para vos</h2>
+  <p>Grandes espacios pensados para disfrutar al aire libre</p>
+  <p>Con circuitos para realizar tus ejercicios y estaciones de hidratacion</p>
+  <p>Contamos con un gimnacio y pileta de natacion olimpica climatizada</p>
+  <div class="row">
+    <div class="col-md-4">
+      <div class="thumbnail">
+        <a href="./img/niños-globos.jpg" target="_blank">
+          <img src="./img/niños-globos.jpg" alt="Lights" style="width:100%">
+          <div class="caption">
+            <p>Jardines del Bolulevard.</p>
+          </div>
+        </a>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="thumbnail">
+        <a href="./img/pool-255230_640.jpg" target="_blank">
+          <img src="./img/pool-255230_640.jpg" alt="Nature" style="width:100%">
+          <div class="caption">
+            <p>Pileta Olimpica y recreativa</p>
+          </div>
+        </a>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="thumbnail">
+        <a href="./img/zumba-4333580_640.jpg" target="_blank">
+          <img src="./img/zumba-4333580_640.jpg" alt="Fjords" style="width:100%">
+          <div class="caption">
+            <p>No te quedes afuera</p>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- cominza formulario de contacto -->
+	<div class="contenedor-form">
 		
-		<form action="envio.php" id= "contacto"> <h5>Carga tus datos</h5></form>
-		<form class="row g-3">
-			<div class="col-md-6">
-			<label for="inputEmail4" class="form-label">Email</label>
-			<input type="email" class="form-control" id="inputEmail4">
+		<form action="envio.php" id= "contacto">
+		<form action="form">
+			<div class="form-header">
+				<h6 class="form-title"><span>Contacto</span></h6>
 			</div>
+			<label for="nombre" class="form-label">Nombre:</label>
+			<input type="text" id="nombre" class="form-input" placeholder="Tu nombre">
+
+			<label for="nombre" class="form-label">Direccion:</label>
+			<input type="text" id="nombre" class="form-input" placeholder="Tu direccion">
+
+			<label for="nombre" class="form-label">E-Mail:</label>
+			<input type="text" id="nombre" class="form-input" placeholder="Tu Mail">
+
+			<label for="nombre" class="form-label">Deja tu mensaje:</label>
+			<textarea id="mensaje" class="form-textarea" placeholder="Escribi tu mensaje"></textarea>
 			
-			<div class="col-12">
-			<label for="inputAddress" class="form-label">Direccion</label>
-			<input type="text" class="form-control" id="inputAddress" placeholder="Velez 123 5to C">
-			</div>
-			<div class="col-12">
-			<label for="telefono" class="form-label">Telefono</label>
-			<input type="text" class="form-control" id="inputAddress2" placeholder="0351-153445566">
-			</div>
-			<div class="col-md-6">
-			<label for="ciudad" class="form-label">Ciudad</label>
-			<input type="text" class="form-control" id="inputCity">
-			</div>
-			<div class="col-md-4">
-			  <label for="Provincia" class="form-label">Provincia</label>
-			  <select id="inputState" class="form-select">
-				<option selected>Seleccionar...</option>
-				<option>Cordoba</option>
-				<option>CABA</option>
-			  </select>
-			</div>
-			<div class="col-md-2">
-			  <label for="inputZip" class="form-label">Codigo Postal</label>
-			  <input type="text" class="form-control" id="inputZip">
-			</div>
-			
-			<div class="col-12">
-			  <button type="submit" class="btn btn-primary">Enviar</button>
-			</div>
-		  </form>
-		</main>
-		 
-		<section>
+			<input type="submit" class="btn-submit"  value="Enviar">
+			</form>
+		</form>
+		</div>
+
+	<!-- comienza imframe -->
+		<section class="map">
 			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3402.3295224985345!2d-64.20777418515587!3d-31.487625106851464!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9432a39a3cbefa43%3A0xdc3a1615140f239d!2sAv.%20V%C3%A9lez%20Sarsfield%207000%2C%20C%C3%B3rdoba!5e0!3m2!1ses-419!2sar!4v1654581447418!5m2!1ses-419!2sar" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 		</section>
 	</main>
+	<!-- comienza footer con info RS -->
 	
 <footer class="footer">
 
-			<h3 class="info">
+			<h3 class="info"></h3>
 			<p>Av. Velez Sarsfield 9100</p>
 			<p>Tel de contacto 0351-153445566</p>
 			<p>info@jardinesdevelez.com</p>
-			</h3>
+			
 			
 			
 		<div class="redes">
@@ -138,5 +151,6 @@
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<p>&copy; 2022 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
 </body>
 </html>
