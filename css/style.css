@@ -4,7 +4,15 @@
   padding: 0%; }
 
 h1, h2, h3, h4, h5, h6, p {
-  text-align: center; }
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  padding: 15px 0; }
+
+h1, h2, p {
+  font-weight: 300; }
+
+p {
+  font-size: 1.2em; }
 
 .contenedor {
   width: 100%;
@@ -23,7 +31,7 @@ h1, h2, h3, h4, h5, h6, p {
   margin: 30px auto; }
 
 .carrusel {
-  margin-top: 10rem; }
+  margin-top: 5rem; }
   .carrusel .carousel-inner .carousel-item img {
     height: 55vh;
     object-fit: cover;

@@ -3,7 +3,7 @@
 
 .contenedor-form form .form-header .form-title {
     font-weight: normal;
-    font-family: $secondFont;
+    font-family: $monseFont;
     color: $letterColor;
     text-align: center;
     padding: 14px 0;
@@ -25,7 +25,7 @@
     display: block;
     color: $letterColor;
     font-size: 16px;
-    font-family: $secondFont;
+    font-family: $monseFont;
     position: relative;
     }
 }
@@ -40,7 +40,7 @@
     border-radius: 2px;
     font-size: 14px;
     color: #26d190;
-    font-family: $secondFont;
+    font-family: $monseFont;
 
 }
 .contenedor-form form .form-textarea {
@@ -50,7 +50,7 @@
 }
 .contenedor-form form .btn-submit {
     width: 100%;
-    font-family: $secondFont;
+    font-family: $monseFont;
     outline: none;
     background: #abedf1;
     font-size: 16px;

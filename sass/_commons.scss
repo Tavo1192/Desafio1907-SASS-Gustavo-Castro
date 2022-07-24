@@ -5,12 +5,14 @@
 h1, h2, h3, h4, h5, h6, p {
     text-align: center;
     font-family: $monseFont;
-    padding: 35px 0;
-    margin: 20px;
+    padding: 15px 0;
+    
 }
+
 h1, h2, p {
     font-weight: $regular;
 }
+
 p {
     font-size: $sub2Md;
 }
