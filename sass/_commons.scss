@@ -2,40 +2,15 @@
     margin: 0%;
     padding: 0%;
 }
-
-
-h1, h2, h3, h4 {
-    
-    color: $letterColor;
+h1, h2, h3, h4, h5, h6, p {
     text-align: center;
-
+    font-family: $monseFont;
+    padding: 35px 0;
+    margin: 20px;
 }
-h1 {
-    font-size: $sub4Xl;
-    font-family: $secondFont;
-    margin: 20px 30px;
-    
-
-}
-    
-h2 {
-    font-size: $sub3Lg;
-    font-family: $secondFont;
-    padding: 10px;
-}
-h3, p {
-    font-size: $sub2Md;
-    font-family: $secondFont ;
-    text-align: center;
-}
-
-h5 {
-    font-family: $secondFont ;
-    font-weight: $bold;
-    padding: 50px;
-
+h1, h2, p {
+    font-weight: $regular;
 }
 p {
-    margin-left: 50px;
-    margin-right: 50px;
+    font-size: $sub2Md;
 }

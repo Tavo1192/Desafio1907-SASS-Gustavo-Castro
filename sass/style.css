@@ -4,38 +4,8 @@
   padding: 0%;
 }
 
-h1, h2, h3, h4 {
-  color: #040404;
+h1, h2, h3, h4, h5, h6, p {
   text-align: center;
-}
-
-h1 {
-  font-size: 2.2em;
-  font-family: "Montserrat", sans-serif;
-  margin: 20px 30px;
-}
-
-h2 {
-  font-size: 1.8em;
-  font-family: "Montserrat", sans-serif;
-  padding: 10px;
-}
-
-h3, p {
-  font-size: 1.2em;
-  font-family: "Montserrat", sans-serif;
-  text-align: center;
-}
-
-h5 {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 400;
-  padding: 50px;
-}
-
-p {
-  margin-left: 50px;
-  margin-right: 50px;
 }
 
 .contenedor {
