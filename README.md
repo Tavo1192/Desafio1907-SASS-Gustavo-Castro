@@ -1,3 +1,3 @@
-# Desafio 19/07 aplicando SASS/SEO 
-# comenzando desde cero para el desafio
+26/07 coloque carrusel en index agregue galeria de img con efecto hover
+luego cambie img en las otras secciones y tambien coloque galeria de img tipo cards con efecto
 
