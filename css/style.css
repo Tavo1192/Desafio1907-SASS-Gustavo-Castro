@@ -11,10 +11,19 @@ h1, h2, h3, h4, h5, h6, p {
 
 h1, h2 {
   font-weight: 300;
-  padding: 15px 0; }
+  padding: 15px 0;
+  margin: 10px; }
 
 p {
   font-size: 1.2em; }
+
+h4 {
+  padding: 15px;
+  margin: 10px; }
+
+h5 {
+  padding: 15px;
+  margin: 10px; }
 
 .nav-contenedor {
   width: 100%;
@@ -39,7 +48,7 @@ p {
 
 .title {
   text-align: center;
-  font-size: 3rem;
+  font-size: 2rem;
   padding: .8em 0 .4em; }
 
 .gallery {
@@ -57,7 +66,7 @@ p {
   overflow: hidden; }
 
 .gallery__picture::before {
-  content: "los destacados";
+  content: "Los destacados";
   position: absolute;
   top: 0;
   bottom: 0;
@@ -210,6 +219,28 @@ ul {
   .contact-info ul,
   .contact-info p {
     text-align: left; } }
+
+.contenedor-vision {
+  width: 100%;
+  max-width: 1000px;
+  margin: auto;
+  padding: 60px;
+  background: white;
+  margin-top: 100px;
+  border-top: 6px solid #007a7a7a; }
+
+.sub-title {
+  font-size: 30px;
+  font-weight: 400; }
+
+.contenedor-vision img {
+  width: 300px;
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 20px; }
+
+.contenedor-vision h5 {
+  font-size: 20px; }
 
 .container-cardCasas {
   width: 100%;
@@ -415,7 +446,7 @@ ul {
   color: #fff; }
 
 @media only screen and (min-width: 320px) and (max-width: 768px) {
-  .container-cardDpts {
+  .container-cardDptos {
     flex-wrap: wrap; }
   .card {
     margin: 15px; } }

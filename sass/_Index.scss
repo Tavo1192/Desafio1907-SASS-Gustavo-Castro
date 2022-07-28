@@ -20,7 +20,7 @@
 // incia tarjetas 
 .title{
     text-align: center;
-    font-size: 3rem;
+    font-size: 2rem;
     padding: .8em 0 .4em;
 }
 
@@ -46,7 +46,7 @@
 }
 
 .gallery__picture::before{
-    content: "los destacados";
+    content: "Los destacados";
     position: absolute;
     top: 0;
     bottom: 0;
@@ -124,90 +124,7 @@
         font-size: 1rem;
     }
 }
-// .container-cardIndex{
-// 	width: 100%;
-// 	// display: flex;
-// 	// max-width: 1100px;
-// 	margin: auto;
-    
-
-    
-    
-// }
-// .title-cards{
-// 	// width: 100%;
-// 	// max-width: 1080px;
-// 	margin: auto;
-// 	padding: 20px;
-// 	margin-top: 20px;
-// 	text-align: center;
-// 	color: #7a7a7a;
-// }
-// .item-card{
-// 	width: 100%;
-// 	margin: 20px;
-// 	border-radius: 6px;
-// 	overflow: hidden;
-// 	background:#fff;
-// 	box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
-// 	transition: all 400ms ease-out;
-// 	cursor: default;
-//     display: grid;
-//     grid-template-columns: 1fr 1fr 1fr;
-//     grid-template-rows:3, 33.33%;
-    
-// }
-// .card:hover{
-// 	box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
-// 	transform: translateY(-3%);
-// }
-// .card img{
-// 	// width: 100%;
-// 	// height: 210px;
-//     object-fit: cover;
-// }
-// .card .contenido-card{
-// 	padding: 15px;
-// 	text-align: center;
-    
-   
-// }
-// .card .contenido-card h3{
-// 	margin-bottom: 15px;
-// 	color: #7a7a7a;
-// }
-// .card .contenido-card p{
-// 	line-height: 1.8;
-// 	color: #6a6a6a;
-// 	font-size: 14px;
-// 	margin-bottom: 5px;
-// }
-// .card .contenido-card a{
-// 	display: inline-block;
-// 	padding: 10px;
-// 	margin-top: 10px;
-// 	text-decoration: none;
-// 	color: #2fb4cc;
-// 	border: 1px solid #2fb4cc;
-// 	border-radius: 4px;
-// 	transition: all 400ms ease;
-// 	margin-bottom: 5px;
-// }
-// .card .contenido-card a:hover{
-// 	background: #2fb4cc;
-// 	color: #fff;
-// }
-// @media only screen and (min-width:320px) and (max-width:768px){
-// 	.container-cardIndex{
-// 		flex-wrap: wrap;
-        
-// 	}
-// 	.card{
-// 		margin: 15px;
-//         display: inline-block;
-// 	}
-// }
-// // termina tarjetas
+// termina tarjetas
 
 // comienza form de contacto
 .formulario{
@@ -331,3 +248,33 @@ ul {
         text-align: left;
     }
 } 
+
+// Mision y Vision
+.contenedor-vision {
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+    padding: 60px;
+    background: white;
+    margin-top: 100px;
+    border-top: 6px solid #007a7a7a;
+}
+.sub-title{
+    font-size: 30px;
+    font-weight: 400;
+
+}
+
+.contenedor-vision img{
+    width: 300px;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.contenedor-vision h5 {
+    font-size: 20px;
+}
+
+
+
+
