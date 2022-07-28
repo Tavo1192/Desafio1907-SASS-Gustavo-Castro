@@ -278,7 +278,7 @@ ul {
   padding: 60px;
   background: white;
   margin-top: 100px;
-  border-top: 6px solid rgba(0, 122, 122, 0.4784313725);
+  border-top: 6px solid #65d6a6;
 }
 
 .sub-title {
@@ -293,8 +293,10 @@ ul {
   margin-bottom: 20px;
 }
 
-.contenedor-vision h5 {
-  font-size: 20px;
+.container-vision p {
+  font-size: 18px;
+  font-weight: 300;
+  margin-top: 20px;
 }
 
 .container-cardCasas {
