@@ -49,7 +49,7 @@
 		
 		<h1>Jardines de Velez te espera</h1>
 		<h2>Un lugar especial</h2>
-			<p>A sólo 15 minutos del centro de la ciudad de Cordoba Capital, y a 4 kms del Aeropuerto Internacional se encuentra este paraíso que invita al relax y al placer de los sentidos.</p>
+		<p>A sólo 15 minutos del centro de la ciudad de Cordoba Capital, y a 4 kms del Aeropuerto Internacional se encuentra este paraíso que invita al relax y al placer de los sentidos.</p>
 		
 	</header>
 	<!-- termina navBar-->
@@ -89,46 +89,35 @@
 	<h2>Jardines de Velez tiene para vos</h2>
     <p>Grandes espacios pensados para disfrutar al aire libre</p>
     <p>En la mejor zona de Cordoba Capital</p>
-    
-	<!-- comienzan tarjetas cards  otras -->
+    <!-- comienzan tarjetas cards  otras -->
 	<main class="main">
 		<h5 class="title">Inmuebles Destacados</h5>
- 
-		<section class="gallery">
-			<figure class="gallery__picture gallery__picture--g1">
-				<img src="img/casa1.jpg" class="gallery__img">
-			</figure>
- 
-			
-			<figure class="gallery__picture gallery__picture--g2">
-				<img src="img/casa2.jpg" class="gallery__img">
-			</figure>
- 
-			<figure class="gallery__picture gallery__picture--g3">
-				<img src="img/casa3.jpg" class="gallery__img">
-			</figure>
- 
-			<figure class="gallery__picture gallery__picture--g4">
-				<img src="img/casa4.jpg" class="gallery__img">
-			</figure>
- 
-			<figure class="gallery__picture gallery__picture--g5">
-				<img src="img/casa5.jpg" class="gallery__img">
-			</figure>
- 
-			<figure class="gallery__picture gallery__picture--g6">
-				<img src="img/housing1.jpg" class="gallery__img">
-			</figure>
- 
-			<figure class="gallery__picture gallery__picture--g7">
-				<img src="img/housing3.jpg" class="gallery__img">
-			</figure>
- 
-			<figure class="gallery__picture gallery__picture--g8">
-				<img src="img/housing4.jpg" class="gallery__img">
-			</figure>
- 
-		</section>
+	<section class="gallery">
+	<figure class="gallery__picture gallery__picture--g1">
+		<img src="img/casa1.jpg" class="gallery__img">
+	</figure>
+	<figure class="gallery__picture gallery__picture--g2">
+		<img src="img/casa2.jpg" class="gallery__img">
+	</figure>
+	<figure class="gallery__picture gallery__picture--g3">
+		<img src="img/casa3.jpg" class="gallery__img">
+	</figure>
+	<figure class="gallery__picture gallery__picture--g4">
+		<img src="img/casa4.jpg" class="gallery__img">
+	</figure>
+	<figure class="gallery__picture gallery__picture--g5">
+		<img src="img/casa5.jpg" class="gallery__img">
+	</figure>
+	<figure class="gallery__picture gallery__picture--g6">
+		<img src="img/housing1.jpg" class="gallery__img">
+	</figure>
+	<figure class="gallery__picture gallery__picture--g7">
+		<img src="img/housing3.jpg" class="gallery__img">
+	</figure>
+	<figure class="gallery__picture gallery__picture--g8">
+		<img src="img/housing4.jpg" class="gallery__img">
+	</figure>
+	</section>
 	</main>
 	
 <!-- fin Cards -->
@@ -152,14 +141,16 @@
 
 <!-- Comienza Form contacto -->
 <main class="formulario">
+	
 <div class="content">
 
-	<h2 class="logo">Dejanos tu<span>mensaje</span></h2>
+	<h2 class="logo-form" id="contacto">Dejanos tu<span>mensaje</span> </h2>
 
 	<div class="contact-wrapper animated bounceInUp">
 		<div class="contact-form">
-			<h3>Contactanos</h3>
-			<form action="">
+			
+			
+			<form action="envio.php">
 				<p>
 					<label>Tu Nombre</label>
 					<input type="text" name="fullname">
@@ -174,16 +165,14 @@
 				</p>
 				<p>
 					<label>Info extra</label>
-					<input type="text" name="affair">
+					<input type="text" name="info extra">
 				</p>
 				<p class="block">
 				<label>Mensaje</label> 
 					<textarea name="message" rows="3"></textarea>
 				</p>
 				<p class="block">
-					<button>
-						Enviar
-					</button>
+				<button><a href="views/404.html">Enviar</a></button>
 				</p>
 			</form>
 		</div>
@@ -203,6 +192,7 @@
 	</div>
 
 </div>
+
 </main>
 
 

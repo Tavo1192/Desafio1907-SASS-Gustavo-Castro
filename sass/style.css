@@ -174,13 +174,13 @@ ul {
   padding: 0;
 }
 
-.logo {
+.logo-form {
   text-align: center;
   font-size: 2em;
   color: #fff;
 }
 
-.logo span {
+.logo-form span {
   color: rgba(0, 122, 122, 0.4784313725);
 }
 

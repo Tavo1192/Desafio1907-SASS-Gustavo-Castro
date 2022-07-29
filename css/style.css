@@ -141,12 +141,12 @@ ul {
   list-style: none;
   padding: 0; }
 
-.logo {
+.logo-form {
   text-align: center;
   font-size: 2em;
   color: #fff; }
 
-.logo span {
+.logo-form span {
   color: #007a7a7a; }
 
 .contact-wrapper {
