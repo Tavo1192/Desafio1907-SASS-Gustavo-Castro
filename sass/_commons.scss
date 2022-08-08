@@ -11,6 +11,9 @@ h1, h2  {
     padding: 15px 0;
     margin: 10px;
 }
+h1 {
+    text-shadow:  5px 5px 5px $letterColor;
+}
 
 p {
     font-size: $sub2Md;
@@ -18,8 +21,11 @@ p {
 h4 {
     padding: 15px;
     margin: 10px;
+    
 }
 h5 {
     padding: 15px;
     margin: 10px;
+    font-size: $subInter;
+
 }
